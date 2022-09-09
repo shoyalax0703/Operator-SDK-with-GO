@@ -6,4 +6,14 @@ plugins:
   scorecard.sdk.operatorframework.io/v2: {}
 projectName: operatorsdk-study
 repo: github.com/redhat/podset-operator
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: example.com
+  group: app
+  kind: PodSet
+  path: github.com/redhat/podset-operator/api/v1alpha1
+  version: v1alpha1
 version: "3"
