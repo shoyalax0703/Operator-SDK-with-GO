@@ -4,7 +4,7 @@
 ## Reference
 1. [What is Operator?](https://www.redhat.com/en/topics/containers/what-is-a-kubernetes-operator)
 2. [What is Operator SDK?](https://sdk.operatorframework.io/)
-3. [Youtube video](https://youtu.be/1iJKDbQzL-k)
+3. [Introducing Operator-SDK 1.0 Youtube video](https://youtu.be/1iJKDbQzL-k)
 
 ## Getting started
 1. [kind install](https://kind.sigs.k8s.io/docs/user/quick-start/)
