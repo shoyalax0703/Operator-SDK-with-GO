@@ -4,6 +4,7 @@
 ## Reference
 1. [What is Operator?](https://www.redhat.com/en/topics/containers/what-is-a-kubernetes-operator)
 2. [What is Operator SDK?](https://sdk.operatorframework.io/)
+3. [Youtube video](https://youtu.be/1iJKDbQzL-k)
 
 ## Getting started
 1. [kind install](https://kind.sigs.k8s.io/docs/user/quick-start/)
@@ -14,7 +15,7 @@ PodSet Operator.
 In this tutorial, we will create an Operator called a PodSet. A PodSet is a simple Controller/Operator that manages pods. A user provides a number of pods specified in spec.replicas. The PodSet also conveniently outputs the name of all Pods currently controlled by the PodSet in the status.PodNames field.
 
 ## Structure
-ここに図形をなんか入れることでいい感じになると思う
+![Screen Shot 2022-09-09 at 17 03 35](https://user-images.githubusercontent.com/66551005/189303068-2b58dbe5-e7f8-4a87-a32a-683853e98f1f.png)
 
 ## Demo 
 ### Navigate to the directory* you can navigate whereever under $HOME directory.:
