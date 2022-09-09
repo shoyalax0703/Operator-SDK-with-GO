@@ -392,17 +392,12 @@ Example output:
 
 
 ### Deleting the PodSet Custom Resource and clean up environment
-Our PodSet controller creates pods containing OwnerReferences in their metadata section. This ensures they will be removed upon deletion of the podset-sample CR.
-Observe the OwnerReference set on a Podset's pod:
-```
-kubectl get pods -o yaml | grep ownerReferences -A10
-```
+
 Delete the podset-sample Custom Resource:
 ```
 kubectl delete podset podset-sample
 ```
-Thanks to OwnerReferences, all of the pods should ![Uploading Screen Shot 2022-09-09 at 16.41.29.png…]()
-be deleted:
+Make sure no pods are running in the cluster
 ```
 kubectl get pods
 ```
@@ -410,6 +405,3 @@ Kind cluster clean up
 ```
 kind delete cluster
 ```
-
-## Review
-it is better to study this demo without VPN. it did not work well using VPN. 
