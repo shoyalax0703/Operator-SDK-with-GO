@@ -1,4 +1,5 @@
-# Operator SDK Hands on Study [Redhad developers website](https://developers.redhat.com/courses/openshift-operators/go-operator)
+# Operator SDK Hands on Study
+[Redhad developers website](https://developers.redhat.com/courses/openshift-operators/go-operator)
 
 ## Reference
 1. [What is Operator?](https://www.redhat.com/en/topics/containers/what-is-a-kubernetes-operator)
