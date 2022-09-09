@@ -388,7 +388,7 @@ kubectl patch podset podset-sample --type='json' -p '[{"op": "replace", "path": 
 kubectl get pods
 ```
 Example output:
-
+<img width="1687" alt="Screen Shot 2022-09-09 at 16 41 40" src="https://user-images.githubusercontent.com/66551005/189298268-03a78424-19fa-42a5-84e9-5699170df106.png">
 
 
 ### Deleting the PodSet Custom Resource and clean up environment
@@ -397,9 +397,6 @@ Observe the OwnerReference set on a Podset's pod:
 ```
 kubectl get pods -o yaml | grep ownerReferences -A10
 ```
-Example output:
-<img width="1687" alt="Screen Shot 2022-09-09 at 16 41 40" src="https://user-images.githubusercontent.com/66551005/189298268-03a78424-19fa-42a5-84e9-5699170df106.png">
-
 Delete the podset-sample Custom Resource:
 ```
 kubectl delete podset podset-sample
